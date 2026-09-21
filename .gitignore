@@ -1,0 +1,17 @@
+# Cisco Packet Tracer artifacts
+*.pkt.bak
+*.pka.bak
+~$*.pkt
+*.pt-backup
+
+# OS files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~

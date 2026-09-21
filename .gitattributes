@@ -1,0 +1,10 @@
+# Treat simulation and media files as binary so Git never applies
+# line-ending conversion or attempts to diff/merge them.
+*.pkt   binary
+*.pka   binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+
+# Normalize line endings for text files.
+*.md    text eol=lf
