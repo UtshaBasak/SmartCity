@@ -1,0 +1,17 @@
+# Dependabot configuration
+#
+# This repository contains no package manifests (no npm, pip, Maven, Gradle,
+# NuGet, etc.) -- it holds a Cisco Packet Tracer simulation plus documentation.
+# The only ecosystem Dependabot can act on here is "github-actions", which will
+# raise pull requests to bump action versions once workflows exist under
+# .github/workflows/. Until then this config is valid but has nothing to update.
+#
+# Docs:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
